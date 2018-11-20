@@ -1,0 +1,256 @@
+/*Part Explination Page CSS*/
+@font-face		      	{
+                      font-family: sf;
+                      src: url(../fonts/SanFransico/sf.otf);
+                      }
+
+@font-face		      	{
+                      font-family: sf_light;
+                      src: url(../fonts/SanFransico/sf_thin.otf);
+                      }
+
+@font-face		      	{
+                      font-family: sf_bold;
+                      src: url(../fonts/SanFransico/sf_bold.otf);
+                      }
+
+main									{
+											padding-top: 80px;
+											height: 7800px;
+											width: 100%;
+											min-width: 1355px;
+											}
+
+.mininav      	  		{
+											position: fixed;
+											width: 100%;
+											top: 80px;
+											height: 50px;
+											background-color: #0d0d0d;
+											text-align: center;
+											word-spacing: 40px;
+											opacity: .9;
+											}
+
+.mininav ul   	  		{
+											padding-top: 15px;
+                                            
+											}
+
+.mininav li   	  		{
+                        font-family: sf_light;
+											color: whitesmoke;
+											display: inline;
+											}
+
+/*CPU Styles*/
+.CPU	      	  			{
+											height: 700px;
+											background-color: #d9d9d9;
+											}
+
+.CPU #Explination1, 
+.CPU #Explination2		{
+											color: black;
+											width: 425px;
+											}
+
+.CPU .Explinations		{
+											float: right;
+											margin-top: 203.5px;
+											width: 850px;
+											height: 323px;
+											}
+
+.CPU .Explination1    {
+											width: 425px;
+											float: left;
+											height: 323px;
+											}
+
+.CPU #Explination3	  {
+											float: right;
+											color: black;
+											width: 395px;
+											}
+
+.CPU #Explination3 ul	{
+											list-style-type: none;
+											}
+
+.CPU #Explination3 a	{
+											text-decoration: none;
+											color: black;
+											font-size: 20px;
+											}
+
+#cpu_image     	  		{
+											animation-delay: 10%;
+											float: left;
+											margin-top: 115px;
+											height: 500px;
+											width: auto;
+											display: none;
+											}
+/*End CPU Styles*/
+
+
+/*Motherboard Styles*/
+.Motherboard					{
+											margin-top: 10px;
+											height: 700px;
+											background-color: #000;
+											}
+
+.Motherboard #Explinations	{
+                            margin-top: 188.5px;
+                            float: right;
+                            color: whitesmoke;
+                            width: 850px;
+														height: 323px;
+                            }
+
+.Motherboard #Explination1	{
+														width: 425px;
+														float: left;
+														height: 323px;
+														}
+
+.Motherboard #Explination2	{
+														width: 395px;
+														float: right;
+														}
+
+.Motherboard #Explination2 ul {
+                              list-style-type: none;
+                              }
+
+.Motherboard #Explination2 a  {
+                              text-decoration: none;
+                              color: whitesmoke;
+															font-size: 20px;
+                              }
+
+.Motherboard #mother_image		{
+															float: left;
+															margin-left: 50px;
+															margin-top: 170px;
+															height: 300px;
+															width: auto;
+															border-radius: 20px;
+															}
+/*End Motherboard Styles*/
+
+/*Case Styles*/
+.Case									{
+											margin-top: 10px;
+											height: 700px;
+											background-color: #d9d9d9;
+											}
+
+.Case #case_image		{
+										float: left;
+										height: 400px;
+										width: auto;
+										margin-top: 150px;
+										margin-left: 100px;
+										}
+
+.Case .Explinations	{
+										height: 323px;
+										width: 850px;
+										color: black;
+										margin-top: 188.5px;
+										float: right;
+										}
+
+.Case #Explination1	{
+										width: 425px;
+										float: left;
+										height: 323px;
+										}
+
+.Case #Explination2	{
+										width: 395px;
+										float: right;
+										}
+
+.Case #Explination2 ul	{
+												list-style-type: none;
+												}
+
+.Case #Explination2 a		{
+												text-decoration: none;
+												color: black;
+												font-size: 20px;
+												}
+/*End Case Styles*/
+
+/*Power Styles*/
+.Power								{
+											margin-top: 10px;
+											height: 700px;
+											background-color: black;
+											}
+
+
+/*End Power Styles*/
+
+/*RAM Styles*/
+.RAM									{
+											margin-top: 10px;
+											height: 700px;
+											background-color: #000;
+											}
+/*End RAM Styles*/
+
+/*GPU Styles*/
+.GPU									{
+											margin-top: 10px;
+											height: 700px;
+											background-color: #000;
+											}
+/*End GPU Styles*/
+
+/*Cooler Styles*/
+.Cooler								{
+											margin-top: 10px;
+											height: 700px;
+											background-color: #d9d9d9;
+											}
+/*End Cooler Styles*/
+
+/*Cables Styles*/
+.Cables								{
+											margin-top: 10px;
+											height: 700px;
+											background-color: #d9d9d9;
+											}
+/*End Cables Styles*/
+
+/*Monitor Styles*/
+.Monitor							{
+											margin-top: 10px;
+											height: 700px;
+											background-color: #000;
+											}
+/*End Monitor Styles*/
+
+/*Storage Styles*/
+.Storage							{
+											margin-top: 10px;
+											height: 700px;
+											background-color: #000;
+											}
+/*End Storage Styles*/
+
+/*Cards Styles*/
+.Cards								{
+											margin-top: 10px;
+											height: 700px;
+											background-color: #000;
+											}
+/*End Cards Styles*/
+
+
+
