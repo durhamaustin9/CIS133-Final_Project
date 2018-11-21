@@ -1,0 +1,88 @@
+/*Main CSS for all html*/
+@font-face		      	{
+                      font-family: sf;
+                      src: url(../fonts/SanFransico/sf.otf);
+                      }
+
+@font-face		      	{
+                      font-family: sf_light;
+                      src: url(../fonts/SanFransico/sf_thin.otf);
+                      }
+
+@font-face		      	{
+                      font-family: sf_bold;
+                      src: url(../fonts/SanFransico/sf_bold.otf);
+                      }
+
+*	                  	{
+                      padding: 0px;
+                      margin: 0px;
+                      }
+
+header								{
+											display: block;
+											}
+
+.Navbar, main, .Test  {
+                      font-family: sf;
+                      }
+
+.Navbar	              {
+				      				position: fixed;
+                      background-color: #404040;
+                      height: 80px;
+                      width: 100%;
+                      }
+
+.navbariteams	      	{
+                      padding-left: 400px;
+                      padding-top: 40px;
+                      width: 525px;
+                      }
+
+.navbariteams ul      {
+                      width: 525px;
+                      font-size: 20px;
+                      list-style-type: none;
+                      word-spacing: 100px;
+                      }
+
+.navbariteam a        {
+                      text-decoration: none;
+                      color: whitesmoke;
+                      -webkit-transition: color .3s ease-out;
+                      -moz-transition: color .3s ease-out;
+                      -o-transition: color .3s ease-out;
+                      transition: color .3s ease-out;
+                      }
+
+.navbariteams a:hover {
+                      color: #737373;
+                      -webkit-transition: color .3s ease-out;
+                      -moz-transition: color .3s ease-out;
+                      -o-transition: color .3s ease-out;
+                      transition: color .3s ease-out;
+                      }
+
+
+	
+.navbariteam          {
+                      display: inline;
+                      }
+
+.Logo	              	{
+                      background-image: url(../Images/Logo.png);
+                      background-position: center;
+                      background-size: 60px;
+                      background-repeat: no-repeat;
+                      float: left;
+                      margin-top: 10px;
+                      margin-left: 10px;
+                      height: 60px;
+                      width: 60px;	
+                      }
+
+.Test	      					{
+											line-height: 100px;
+											font-size: 20px;
+											}
